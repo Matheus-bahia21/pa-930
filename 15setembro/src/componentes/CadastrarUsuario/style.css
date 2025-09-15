@@ -1,0 +1,69 @@
+/* src\componentes\style.css */
+.cadastrar-usuario-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 70px;
+  background: #995252;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(163, 83, 83, 0.1);
+  border: 1px solid #e40303;
+}
+
+.cadastrar-usuario-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.cadastrar-usuario-container form > div {
+  margin-bottom: 18px;
+}
+
+.cadastrar-usuario-container label {
+  display: block;
+  margin-bottom: 6px;
+  color: #f3f2f2;
+  font-weight: 500;
+}
+
+.cadastrar-usuario-container input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ec1111;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  outline: none;
+}
+
+.cadastrar-usuario-container input:focus {
+  border: 1.5px solid #020202;
+}
+
+.cadastrar-usuario-container button {
+  width: 100%;
+  padding: 12px;
+  background: #a1051a;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cadastrar-usuario-container button:hover {
+  background: #1565c0;
+}
+
+.cadastrar-usuario-container p {
+  margin-top: 18px;
+  text-align: center;
+  color: #141614;
+  font-weight: 600;
+  background: #f9faf9;
+  border-radius: 6px;
+  padding: 8px 0;
+}
