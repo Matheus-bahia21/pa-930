@@ -1,0 +1,3 @@
+/* src\components\pages\Servicos\style.css */
+.servicos { display: grid; gap: 16px; }
+.servicos h1 { margin: 0; }
